@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B531E999250954A88378EB81 /* libPods-HandMadeVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D879F3553698637180204BAA /* libPods-HandMadeVideo.a */; };
 		FE1F99CB1C18341C00A7F338 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1F99CA1C18341C00A7F338 /* AppDelegate.swift */; };
 		FE1F99D21C18341C00A7F338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE1F99D11C18341C00A7F338 /* Assets.xcassets */; };
 		FE1F99D51C18341C00A7F338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1F99D31C18341C00A7F338 /* LaunchScreen.storyboard */; };
@@ -20,6 +21,8 @@
 		FEA5A8EE1C1867E800B84B3B /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEA5A8E71C1867E800B84B3B /* HomeCell.xib */; };
 		FEA5A8EF1C1867E800B84B3B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5A8E81C1867E800B84B3B /* HomeViewController.swift */; };
 		FEA5A8F01C1867E800B84B3B /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEA5A8E91C1867E800B84B3B /* HomeViewController.xib */; };
+		FEA5A8FA1C186ACC00B84B3B /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5A8F61C186ACC00B84B3B /* Content.swift */; };
+		FEA5A8FB1C186ACC00B84B3B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5A8F81C186ACC00B84B3B /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E3F9142CEB2605B5C91FE64 /* Pods-HandMadeVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandMadeVideo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HandMadeVideo/Pods-HandMadeVideo.release.xcconfig"; sourceTree = "<group>"; };
+		BD4259EC143A642AE6D3764A /* Pods-HandMadeVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandMadeVideo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HandMadeVideo/Pods-HandMadeVideo.debug.xcconfig"; sourceTree = "<group>"; };
+		D879F3553698637180204BAA /* libPods-HandMadeVideo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HandMadeVideo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1F99C71C18341C00A7F338 /* HandMadeVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandMadeVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1F99CA1C18341C00A7F338 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE1F99D11C18341C00A7F338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,6 +65,8 @@
 		FEA5A8E71C1867E800B84B3B /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
 		FEA5A8E81C1867E800B84B3B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FEA5A8E91C1867E800B84B3B /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		FEA5A8F61C186ACC00B84B3B /* Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		FEA5A8F81C186ACC00B84B3B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B531E999250954A88378EB81 /* libPods-HandMadeVideo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +95,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52730213B9A3EB11B4161939 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD4259EC143A642AE6D3764A /* Pods-HandMadeVideo.debug.xcconfig */,
+				5E3F9142CEB2605B5C91FE64 /* Pods-HandMadeVideo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A0D2C8BEBEB680E035EE3375 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D879F3553698637180204BAA /* libPods-HandMadeVideo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FE1F99BE1C18341C00A7F338 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +119,8 @@
 				FE1F99DE1C18341C00A7F338 /* HandMadeVideoTests */,
 				FE1F99E91C18341C00A7F338 /* HandMadeVideoUITests */,
 				FE1F99C81C18341C00A7F338 /* Products */,
+				52730213B9A3EB11B4161939 /* Pods */,
+				A0D2C8BEBEB680E035EE3375 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				FE1F99CA1C18341C00A7F338 /* AppDelegate.swift */,
+				FEA5A8F11C186ACC00B84B3B /* Data layer */,
 				FEA5A8C31C183A6B00B84B3B /* Presentation Layer */,
 				FEA5A8DC1C18644000B84B3B /* Extensions */,
 				FE1F99D11C18341C00A7F338 /* Assets.xcassets */,
@@ -165,9 +194,9 @@
 		FEA5A8E01C1867E800B84B3B /* Add Content */ = {
 			isa = PBXGroup;
 			children = (
+				FEA5A8E31C1867E800B84B3B /* AddContentViewController.swift */,
 				FEA5A8E11C1867E800B84B3B /* AddContentView.swift */,
 				FEA5A8E21C1867E800B84B3B /* AddContentView.xib */,
-				FEA5A8E31C1867E800B84B3B /* AddContentViewController.swift */,
 			);
 			path = "Add Content";
 			sourceTree = "<group>";
@@ -191,6 +220,39 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		FEA5A8F11C186ACC00B84B3B /* Data layer */ = {
+			isa = PBXGroup;
+			children = (
+				FEA5A8F41C186ACC00B84B3B /* Models */,
+			);
+			path = "Data layer";
+			sourceTree = "<group>";
+		};
+		FEA5A8F41C186ACC00B84B3B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FEA5A8F51C186ACC00B84B3B /* Content */,
+				FEA5A8F71C186ACC00B84B3B /* User */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FEA5A8F51C186ACC00B84B3B /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				FEA5A8F61C186ACC00B84B3B /* Content.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		FEA5A8F71C186ACC00B84B3B /* User */ = {
+			isa = PBXGroup;
+			children = (
+				FEA5A8F81C186ACC00B84B3B /* User.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -198,9 +260,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE1F99EF1C18341C00A7F338 /* Build configuration list for PBXNativeTarget "HandMadeVideo" */;
 			buildPhases = (
+				C0D8262B5C6E1ADE545C8929 /* Check Pods Manifest.lock */,
 				FE1F99C31C18341C00A7F338 /* Sources */,
 				FE1F99C41C18341C00A7F338 /* Frameworks */,
 				FE1F99C51C18341C00A7F338 /* Resources */,
+				4B0727C5FC51569C94E782E9 /* Embed Pods Frameworks */,
+				F09F8EB21B4BE602B598BB75 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -319,6 +384,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B0727C5FC51569C94E782E9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HandMadeVideo/Pods-HandMadeVideo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0D8262B5C6E1ADE545C8929 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F09F8EB21B4BE602B598BB75 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HandMadeVideo/Pods-HandMadeVideo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FE1F99C31C18341C00A7F338 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -326,7 +439,9 @@
 			files = (
 				FEA5A8EC1C1867E800B84B3B /* AddContentViewController.swift in Sources */,
 				FE1F99CB1C18341C00A7F338 /* AppDelegate.swift in Sources */,
+				FEA5A8FA1C186ACC00B84B3B /* Content.swift in Sources */,
 				FEA5A8DE1C18644000B84B3B /* UIView+LoadFromNib.swift in Sources */,
+				FEA5A8FB1C186ACC00B84B3B /* User.swift in Sources */,
 				FEA5A8EA1C1867E800B84B3B /* AddContentView.swift in Sources */,
 				FEA5A8ED1C1867E800B84B3B /* HomeCell.swift in Sources */,
 				FEA5A8EF1C1867E800B84B3B /* HomeViewController.swift in Sources */,
@@ -459,6 +574,7 @@
 		};
 		FE1F99F01C18341C00A7F338 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD4259EC143A642AE6D3764A /* Pods-HandMadeVideo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HandMadeVideo/Info.plist;
@@ -470,6 +586,7 @@
 		};
 		FE1F99F11C18341C00A7F338 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E3F9142CEB2605B5C91FE64 /* Pods-HandMadeVideo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HandMadeVideo/Info.plist;

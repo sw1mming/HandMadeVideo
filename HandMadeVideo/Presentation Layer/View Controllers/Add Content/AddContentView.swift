@@ -10,10 +10,21 @@ import UIKit
 import Foundation
 
 class AddContentView: UIView {
-    
+    /* Text field for title of Content. */
     @IBOutlet weak var titleTextField: UITextField!
+    
+    /* Outlet for save button. */
     @IBOutlet weak var saveButton: UIButton!
     
-    @IBAction func saveButtonSelected(sender: AnyObject) {
+    /* Property for AddContentViewDelegate. */
+    var delegate: AddContentViewDelegate?
+    
+    @IBAction private func saveButtonSelected(sender: AnyObject) {
+        delegate?.didSelectSaveButton(self, button: sender as! UIButton)
     }
+}
+
+
+protocol AddContentViewDelegate {
+    func didSelectSaveButton(addContentView: AddContentView, button: UIButton)
 }
