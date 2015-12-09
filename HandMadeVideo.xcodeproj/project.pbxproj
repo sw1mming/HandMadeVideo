@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		FE1F99CB1C18341C00A7F338 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1F99CA1C18341C00A7F338 /* AppDelegate.swift */; };
-		FE1F99CD1C18341C00A7F338 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1F99CC1C18341C00A7F338 /* ViewController.swift */; };
-		FE1F99D01C18341C00A7F338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1F99CE1C18341C00A7F338 /* Main.storyboard */; };
 		FE1F99D21C18341C00A7F338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE1F99D11C18341C00A7F338 /* Assets.xcassets */; };
 		FE1F99D51C18341C00A7F338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1F99D31C18341C00A7F338 /* LaunchScreen.storyboard */; };
 		FE1F99E01C18341C00A7F338 /* HandMadeVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1F99DF1C18341C00A7F338 /* HandMadeVideoTests.swift */; };
 		FE1F99EB1C18341C00A7F338 /* HandMadeVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1F99EA1C18341C00A7F338 /* HandMadeVideoUITests.swift */; };
+		FEA5A8DE1C18644000B84B3B /* UIView+LoadFromNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5A8DD1C18644000B84B3B /* UIView+LoadFromNib.swift */; };
+		FEA5A8EA1C1867E800B84B3B /* AddContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5A8E11C1867E800B84B3B /* AddContentView.swift */; };
+		FEA5A8EB1C1867E800B84B3B /* AddContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEA5A8E21C1867E800B84B3B /* AddContentView.xib */; };
+		FEA5A8EC1C1867E800B84B3B /* AddContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5A8E31C1867E800B84B3B /* AddContentViewController.swift */; };
+		FEA5A8ED1C1867E800B84B3B /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5A8E61C1867E800B84B3B /* HomeCell.swift */; };
+		FEA5A8EE1C1867E800B84B3B /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEA5A8E71C1867E800B84B3B /* HomeCell.xib */; };
+		FEA5A8EF1C1867E800B84B3B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5A8E81C1867E800B84B3B /* HomeViewController.swift */; };
+		FEA5A8F01C1867E800B84B3B /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEA5A8E91C1867E800B84B3B /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +42,6 @@
 /* Begin PBXFileReference section */
 		FE1F99C71C18341C00A7F338 /* HandMadeVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandMadeVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1F99CA1C18341C00A7F338 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE1F99CC1C18341C00A7F338 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FE1F99CF1C18341C00A7F338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE1F99D11C18341C00A7F338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE1F99D41C18341C00A7F338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE1F99D61C18341C00A7F338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		FE1F99E61C18341C00A7F338 /* HandMadeVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandMadeVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1F99EA1C18341C00A7F338 /* HandMadeVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandMadeVideoUITests.swift; sourceTree = "<group>"; };
 		FE1F99EC1C18341C00A7F338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA5A8DD1C18644000B84B3B /* UIView+LoadFromNib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+LoadFromNib.swift"; sourceTree = "<group>"; };
+		FEA5A8E11C1867E800B84B3B /* AddContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContentView.swift; sourceTree = "<group>"; };
+		FEA5A8E21C1867E800B84B3B /* AddContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddContentView.xib; sourceTree = "<group>"; };
+		FEA5A8E31C1867E800B84B3B /* AddContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContentViewController.swift; sourceTree = "<group>"; };
+		FEA5A8E61C1867E800B84B3B /* HomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		FEA5A8E71C1867E800B84B3B /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		FEA5A8E81C1867E800B84B3B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FEA5A8E91C1867E800B84B3B /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				FE1F99CA1C18341C00A7F338 /* AppDelegate.swift */,
-				FE1F99CC1C18341C00A7F338 /* ViewController.swift */,
-				FE1F99CE1C18341C00A7F338 /* Main.storyboard */,
+				FEA5A8C31C183A6B00B84B3B /* Presentation Layer */,
+				FEA5A8DC1C18644000B84B3B /* Extensions */,
 				FE1F99D11C18341C00A7F338 /* Assets.xcassets */,
 				FE1F99D31C18341C00A7F338 /* LaunchScreen.storyboard */,
 				FE1F99D61C18341C00A7F338 /* Info.plist */,
@@ -123,6 +135,60 @@
 				FE1F99EC1C18341C00A7F338 /* Info.plist */,
 			);
 			path = HandMadeVideoUITests;
+			sourceTree = "<group>";
+		};
+		FEA5A8C31C183A6B00B84B3B /* Presentation Layer */ = {
+			isa = PBXGroup;
+			children = (
+				FEA5A8DF1C1867E800B84B3B /* View Controllers */,
+			);
+			path = "Presentation Layer";
+			sourceTree = "<group>";
+		};
+		FEA5A8DC1C18644000B84B3B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FEA5A8DD1C18644000B84B3B /* UIView+LoadFromNib.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FEA5A8DF1C1867E800B84B3B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FEA5A8E01C1867E800B84B3B /* Add Content */,
+				FEA5A8E41C1867E800B84B3B /* Main Screen */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FEA5A8E01C1867E800B84B3B /* Add Content */ = {
+			isa = PBXGroup;
+			children = (
+				FEA5A8E11C1867E800B84B3B /* AddContentView.swift */,
+				FEA5A8E21C1867E800B84B3B /* AddContentView.xib */,
+				FEA5A8E31C1867E800B84B3B /* AddContentViewController.swift */,
+			);
+			path = "Add Content";
+			sourceTree = "<group>";
+		};
+		FEA5A8E41C1867E800B84B3B /* Main Screen */ = {
+			isa = PBXGroup;
+			children = (
+				FEA5A8E51C1867E800B84B3B /* Cells */,
+				FEA5A8E81C1867E800B84B3B /* HomeViewController.swift */,
+				FEA5A8E91C1867E800B84B3B /* HomeViewController.xib */,
+			);
+			path = "Main Screen";
+			sourceTree = "<group>";
+		};
+		FEA5A8E51C1867E800B84B3B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FEA5A8E61C1867E800B84B3B /* HomeCell.swift */,
+				FEA5A8E71C1867E800B84B3B /* HomeCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +295,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA5A8EB1C1867E800B84B3B /* AddContentView.xib in Resources */,
 				FE1F99D51C18341C00A7F338 /* LaunchScreen.storyboard in Resources */,
+				FEA5A8F01C1867E800B84B3B /* HomeViewController.xib in Resources */,
+				FEA5A8EE1C1867E800B84B3B /* HomeCell.xib in Resources */,
 				FE1F99D21C18341C00A7F338 /* Assets.xcassets in Resources */,
-				FE1F99D01C18341C00A7F338 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +324,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE1F99CD1C18341C00A7F338 /* ViewController.swift in Sources */,
+				FEA5A8EC1C1867E800B84B3B /* AddContentViewController.swift in Sources */,
 				FE1F99CB1C18341C00A7F338 /* AppDelegate.swift in Sources */,
+				FEA5A8DE1C18644000B84B3B /* UIView+LoadFromNib.swift in Sources */,
+				FEA5A8EA1C1867E800B84B3B /* AddContentView.swift in Sources */,
+				FEA5A8ED1C1867E800B84B3B /* HomeCell.swift in Sources */,
+				FEA5A8EF1C1867E800B84B3B /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +365,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FE1F99CE1C18341C00A7F338 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FE1F99CF1C18341C00A7F338 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FE1F99D31C18341C00A7F338 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -482,6 +546,7 @@
 				FE1F99F11C18341C00A7F338 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE1F99F21C18341C00A7F338 /* Build configuration list for PBXNativeTarget "HandMadeVideoTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +555,7 @@
 				FE1F99F41C18341C00A7F338 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE1F99F51C18341C00A7F338 /* Build configuration list for PBXNativeTarget "HandMadeVideoUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +564,7 @@
 				FE1F99F71C18341C00A7F338 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
